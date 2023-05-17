@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/technology.jpg',
+    imgUrl: '/tech3.jpg',
     title: 'The Hogwarts',
   },
   {
     id: 'world-2',
-    imgUrl: '/tech2.jpg',
+    imgUrl: '/tech4.jpg',
     title: 'The Upside Down',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/iot.jpg',
     title: 'Kadirojo Permai',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/tech5.jpg',
     title: 'Paradise Island',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/tech6.jpg',
     title: 'Hawkins Labs',
   },
 ];
