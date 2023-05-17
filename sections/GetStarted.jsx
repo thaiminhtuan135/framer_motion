@@ -19,7 +19,7 @@ const GetStarted = () => (
           <motion.div variants={planetVariants('left')} className={`${styles.flexCenter}`}>
               <img src="/get-started.png" alt="get-start" className={'w-[80%] h-[80%] object-contain'}/>
           </motion.div>
-          <motion.div variants={fadeIn('left', 'tween', 0.2, 1)}
+          <motion.div variants={fadeIn('left', 'tween', 0, 1)}
                       className={'flex-[0.75s] flex justify-center flex-col'}>
               <TypingText title={"| How Metaversus work"}/>
               <TitleText title={<>Get start with just a few click</>}/>

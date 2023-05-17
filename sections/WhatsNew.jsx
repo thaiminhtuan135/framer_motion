@@ -14,7 +14,7 @@ const WhatsNew = () => (
             viewport={{once : false, amount:0.25}}
             className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
         >
-            <motion.div variants={fadeIn('left', 'tween', 0.2, 1)}
+            <motion.div variants={fadeIn('left', 'tween', 0, 1)}
                         className={'flex-[0.75s] flex justify-center flex-col'}>
                 <TypingText title={"| What's new ?"}/>
                 <TitleText title={<>What's new about Metaversus?</>}/>
